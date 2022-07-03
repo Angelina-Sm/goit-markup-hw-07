@@ -1,0 +1,216 @@
+.footer {
+    background: var(--footer-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-logo-part1 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--akcent-color);
+    margin-bottom: 20px;
+}
+
+.footer-logo-part2 {
+    color: var(--title-color);
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-link-street {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-text);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-link-street:hover {
+    color: var(--akcent-color);
+}
+
+.address-link-street:focus {
+    color: Var(--akcent-color);
+}
+
+.address-mail {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-contakt);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-mail:hover {
+    color: var(--akcent-color);
+}
+
+.address-mail:focus {
+    color: var(--akcent-color);
+}
+
+.address-tel {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-contakt);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-tel:hover {
+    color: var(--akcent-color);
+}
+
+.address-tel:focus {
+    color: var(--akcent-color);
+}
+
+.footer-soc-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.footer-address {
+    display: flex;
+    align-items: baseline;
+    
+    
+}
+
+.footer-soc {
+    margin-left: 70px;
+}
+
+.footer-soc-list {
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-soc-item {
+    width: 44px;
+    height: 44px;
+}
+
+.footer-soc-item + .footer-soc-item {
+    margin-left: 10px;
+}
+
+.footer-soc-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    color: var(--title-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soc-link:hover, 
+.footer-soc-link:focus {
+    background-color: var(--akcent-color);
+}
+
+.footer-soc-icon {
+    fill: currentColor;
+}
+
+.footer-notifications {
+    margin-left: 93px;
+    
+}
+
+.notifications-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+    margin-bottom: 20px;
+}
+
+.notifications-input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    height: 50px;
+    width: 358px;
+    background-color: transparent;
+    padding-left: 16px;
+    color: var(--title-color);
+    margin-right: 12px;
+    outline: none;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.notifications-input:hover,
+.notifications-input:focus {
+    border:  1px solid var(--akcent-color);
+
+}
+
+.notifications-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.notifications-form {
+    display: flex;
+
+}
+
+.notifications-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    padding: 10px 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+    background: var(--akcent-color);
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.notifications-btn:hover,
+.notifications-btn:focus {
+    background-color: var(--input-btn-hover);
+}
+
+.notifications-icon {
+    margin-left: 10px;
+    
+    align-items: center;
+}

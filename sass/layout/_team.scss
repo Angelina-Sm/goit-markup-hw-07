@@ -1,0 +1,102 @@
+.team {
+    background: var(--btn-background);
+    padding-top: 94px;
+}
+
+.team-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--title-color);
+}
+
+.team-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--heading);
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    margin-left: -30px;
+}
+
+.team-item {
+    flex-basis: calc((100% - 120px) / 3);
+    margin-left: 30px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team-specialist {
+    padding: 30px 0;
+    background-color: var(--title-color);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--subtitle);
+    margin-bottom: var(--typical-margin);
+}
+
+.team-description {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--description);
+    margin-bottom: 16px;
+}
+
+.team-soc-list {
+    display: flex;
+    justify-content: center;
+}
+
+.team-soc-item + .team-soc-item {
+    margin-left: 10px;
+}
+
+.team-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--icon-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+.team-soc-icon {
+    fill: currentColor;
+    
+}
+
+.team-soc-link:hover {
+    background-color: var(--akcent-color);
+    
+}
+
+.team-soc-link:hover .team-soc-icon {
+    fill: var(--icon-hover);
+    
+}
+
+.team-soc-link:focus {
+    background-color: var(--akcent-color);
+}
+
+.team-soc-link:focus .team-soc-icon {
+    fill: var(--icon-hover);
+}
